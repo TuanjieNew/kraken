@@ -52,15 +52,15 @@ do
   fi
 done
 
-echo
-echo "Kraken installation complete."
-echo
-echo "To make things easier for you, you may want to copy/symlink the following"
-echo "files into a directory in your PATH:"
-for file in $KRAKEN_DIR/kraken*
-do
-  if [ -x "$file" ]
-  then
-    echo "  $file"
-  fi
-done
+#echo
+#echo "Kraken installation complete."
+#echo
+#echo "To make things easier for you, you may want to copy/symlink the following"
+#echo "files into a directory in your PATH:"
+#for file in $KRAKEN_DIR/kraken*
+#do
+  #if [ -x "$file" ]
+  #then
+    #echo "  $file"
+  #fi
+#done
